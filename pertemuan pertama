@@ -1,0 +1,13 @@
+package day1;// ini merupakan package
+
+public class Main {
+    
+    public static void main(String[] args) {
+        System.out.println("day 1");
+        // ini adalah komentar
+        /* tugas hari pertama yaitu :
+        membuat project, mencetak data,
+        dan membuat komentar */
+    }
+    
+}
