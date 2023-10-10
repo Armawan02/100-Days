@@ -1,0 +1,15 @@
+package day2;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        String Nama = "Armawan";
+        int Umur = 19;
+        char Kelas = 'C';
+        String Prodi = "Informatika";
+        String Hobi = "Menyanyi";
+        System.out.println("Nama\t:"+Nama+"\nUmur\t:"+Umur+"\nKelas\t:"+Kelas);
+        System.out.println("Prodi\t:"+Prodi+"\nHobi\t:"+Hobi);
+    }
+    
+}
