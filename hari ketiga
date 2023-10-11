@@ -1,0 +1,19 @@
+package day3;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int nilai;
+        System.out.print("masukkan nilai anda = ");
+        nilai = input.nextInt();
+        int kkm = 75;
+        String hasil = nilai >= kkm?"tuntas":"tidak tuntas";
+        System.out.println("jadi nilai anda = "+nilai);
+        System.out.println("Dan anda dinyatakan = "+hasil);
+        
+        
+        
+    }
+    
+}
