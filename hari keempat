@@ -1,0 +1,21 @@
+package day4;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+        int pilihan, a1, a2, hasil;
+        System.out.println("===Penjumlahan===");
+        System.out.println("masukkan angka : ");
+        a1 = masuk.nextInt();
+        System.out.println("masukkan angka : ");
+        a2 = masuk.nextInt();
+        hasil = a1 + a2;
+        System.out.println(a1+" + "+a2+" = "+hasil);
+        
+        //Days3 :
+        /* sebenarnya ini adalah kalkulator,tapi untuk
+        saat ini, saya cuma bisa sampai penjumlahan saja*/
+    }
+    
+}
