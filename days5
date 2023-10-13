@@ -1,0 +1,26 @@
+package day5;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        // Deklarasi variabel
+        String Nama,Alamat;
+        int Umur,TB,BB;
+        char GolDarah;
+        boolean Biodata;
+        // Inisialisasi
+        Nama = "Armawan";
+        Alamat = "Samalio";
+        Umur = 19;
+        TB = 159;
+        BB = 45;
+        GolDarah = 'A';
+        Biodata = true;
+        
+        System.out.println("===Biodata Mahasiswa===");
+        System.out.println("Nama\t:"+Nama+"\nAlamat\t:"+Alamat+"\nUmur\t:"+Umur+"\nTB\t:"+TB+"\nBB\t:"+BB+"\nGolDar\t:"+GolDarah+"\nBiodata\t"+Biodata);
+        
+        
+    }
+    
+}
