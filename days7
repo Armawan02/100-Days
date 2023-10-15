@@ -1,0 +1,17 @@
+package days7;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int Soal1 = 45;
+        int Soal2 = 5;
+        
+        System.out.println("===JUMLAH SOAL UTS===");
+        System.out.println("pilihan ganda :\t"+Soal1);
+        System.out.println("Essay :\t"+Soal2);
+        System.out.println("______________________\n"+"jadi soal UTS semester \n1 adalah 50 Nomor");
+       
+       
+    }
+    
+}
