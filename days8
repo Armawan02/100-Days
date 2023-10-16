@@ -1,0 +1,17 @@
+package days8;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        double total = 100000; // jika angka di bawah 100 maka tidak akan dapat diskon.
+        System.out.println("Belanja = Rp. "+total);
+        if(total >= 100000){
+            System.out.println("Dapat diskon 10%");
+            double diskon = 10 * total / 100;  
+            System.out.println(diskon);
+            total -= diskon;
+        }
+        System.out.println("Akhir = Rp. "+total);
+    }
+    
+}
