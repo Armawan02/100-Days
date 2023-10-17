@@ -1,0 +1,11 @@
+package days9;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        byte umur = 19;
+        System.out.println("Umur Anda adalah :"+umur+" "+"tahun");
+         
+    }
+    
+}
