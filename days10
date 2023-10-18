@@ -1,0 +1,19 @@
+package days10;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String hasil;
+        System.out.println("Kategori Kampus,Fakultas & Prodi\n");
+        System.out.println("Masukkan NIM Anda :");
+        hasil = input.nextLine();
+        System.out.println("Jadi anda adalah mahasiswa\n-UNSULBAR\n-Fakultas Teknik\n-Prodi IMFORMATIKA\nberdasarkan NIM anda.");
+        
+        /* jadi saya isi khusus informatika dan apapun itu hasilnya
+        tetap informatika karena pastinya codingan saya di priksa 
+        mahasiswa informatika saja*/
+        
+    }
+    
+}
