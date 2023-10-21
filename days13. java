@@ -1,0 +1,18 @@
+package days13.java;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner masuk = new Scanner(System.in);
+        int pilihan, P, L, hasil;
+        System.out.println("MENGHITUNG LUAS PERSEGI PANJANG");
+        System.out.print("masukkan Panjang : ");
+        P = masuk.nextInt();
+        System.out.print("masukkan Lebar : ");
+        L = masuk.nextInt();
+        hasil = P * L;
+        System.out.println(P+" x "+L+" = "+hasil+" CM");
+        
+    }
+    
+}
